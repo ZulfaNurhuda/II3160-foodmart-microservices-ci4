@@ -39,6 +39,6 @@
     },
     "scripts": {
         "test": "phpunit",
-        "serve": ["Composer\\Config::disableProcessTimeout", "php spark serve --host 0.0.0.0 --port 8080 || exit 0"]
+        "serve": ["Composer\\Config::disableProcessTimeout", "php spark serve --host 0.0.0.0 --port 8001 || exit 0"]
     }
 }
